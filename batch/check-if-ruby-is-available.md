@@ -3,7 +3,7 @@
 
 A simple batch file template that checks if Ruby is available before running a command that presumably needs ruby:
 
-```
+```batch
 @ECHO OFF
 
 REM First, test for Ruby and don't run if not installed.

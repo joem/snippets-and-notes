@@ -5,13 +5,13 @@ Functions are essentially using jump points to pretend you're calling an externa
 
 Call a function:
 
-```
+```batch
 CALL :FUNCTIONNAME
 ```
 
 Call a function with an argument:
 
-```
+```batch
 CALL :FUNCTIONNAME argument
 ```
 

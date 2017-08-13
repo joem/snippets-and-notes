@@ -1,13 +1,13 @@
 # Comments
 
 
-```
+```batch
 REM
 ```
 
 or
 
-```
+```batch
 ::
 ```
 

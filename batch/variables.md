@@ -9,7 +9,7 @@
 
 Setting:
 
-```
+```batch
 set variablename=whatever string you want
 ```
 
@@ -17,14 +17,14 @@ set variablename=whatever string you want
 Variable expansion:
 (For instance, you'd use that in an echo statement, or in part of a path name.)
 
-```
+```batch
 %variablename%
 ```
 
 
 Check if a variable is defined:
 
-```
+```batch
 IF DEFINED MyVar (ECHO MyVar IS defined) ELSE (ECHO MyVar is NOT defined)
 ```
 
