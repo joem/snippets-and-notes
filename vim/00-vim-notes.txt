@@ -1,0 +1,21 @@
+vim notes
+========================
+
+Modelines
+---------
+# vim: set expandtab:
+
+or
+
+# vim: expandtab:
+
+or
+
+# vim: set ft=html:
+
+or
+
+# vim: ft=html:
+
+and so on...
+
