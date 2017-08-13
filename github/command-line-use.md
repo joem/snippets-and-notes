@@ -4,3 +4,5 @@ When you have Two-Factor Authorization (2FA) enabled, dealing with repos via htt
 
 (You can avoid that by dealing with repos via SSH instead.)
 
+Update: This might have been changed to require username as username and Personal Access Token as password?
+
