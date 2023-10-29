@@ -5,18 +5,10 @@
 
 module MyLib
   # This is the class that all reader plugins must inherit
-  class ReaderPlugin
-    def self.inherited(klass)
-      super # Not sure I know why this needs a `super` call but Rubocop says so
-      @descendants ||= []
-      @descendants << klass
-    end
+  class ReaderPlugin < Plugin
+    # `self.inherited(klass)` and `self.descendants` come from Plugin
 
-    def self.descendants
-      @descendants || []
-    end
-
-    # Plugins must override run in their own class.
-    def run; end
+    # # Plugins must define run (or whatever) in their own class.
+    # def run; end
   end
 end

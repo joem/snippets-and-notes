@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+require_relative 'my_lib/plugin'
 require_relative 'my_lib/reader_plugin'
 require_relative 'my_lib/writer_plugin'
 
